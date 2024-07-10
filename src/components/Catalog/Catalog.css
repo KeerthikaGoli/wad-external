@@ -1,0 +1,29 @@
+.textfield{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.textfieldbar{
+    width: 40rem;
+    height: 3.5rem;
+    border-radius: 3rem;
+    padding-left: 1rem;
+}
+input[type=text]:focus{
+    outline-color: #fcf281 !important;
+    
+    border: 0.5rem  #fcf281;
+    border-color: #fcf281 !important;
+}
+::-webkit-input-placeholder { 
+    padding-left: 0.5rem;
+}
+.but{
+    background-color: #fefaca;
+    width: 5rem;
+    border-radius: 3rem;
+    height: 3.5rem;
+}
+.but:hover{
+    background-color: #dad9d1;
+}
